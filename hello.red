@@ -1,5 +1,5 @@
 Red [
-     Title: "Simple hello world script"
+     Title: "Simple 'Hello, World' script"
  ]
 
- print "Hello World!"
+ print "Hello, World!"
