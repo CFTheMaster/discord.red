@@ -8,9 +8,14 @@ Red [
 		See https://github.com/CFTheMaster/discord.red/blob/master/LICENSE
 	}
 ]
-#include %./src/WebSockets/WebSocket.red ; introduce content from WebSocket.red
-#include %./src/CommandHandler/BasicCommand.red ; introduce content from BasicCommand.red
+#include %./src/Client/Client.red ; introduce content from Client.red
 #include %./src/Core/Core.red ; introduce content from Core.red
+#include %./src/ErrorHandler/Errors.red ; introduce content from Errors.red
+#include %./src/Sharding/Shard.red ; introduce content from Shard.red
+#include %./src/WebSockets/WebSocket.red ; introduce content from WebSocket.red
+
+Client ; From Client.red
+Core ; From Core.red
+Errors ; From Errors.red
+Shard ; From Shard.red
 WebSocket ; From WebSocket.red
-BasicCommand ; From BasicCommand.red
-Core ; Core File
