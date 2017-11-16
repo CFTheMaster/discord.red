@@ -5,6 +5,6 @@ Red [
 ]
 
 ; this func is called by %include.red with #include directive
-print-hello: func [][ 
+WebSocket: func [][ 
     print "File From Websocket"
 ]

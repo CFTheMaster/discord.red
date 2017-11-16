@@ -3,6 +3,6 @@ Red [
     Author: computerfreaker
     File: %BasicCommand.red
 ]
-dabs: func [][ 
+BasicCommand: func [][ 
     print "File For BasicCommand"
 ]
