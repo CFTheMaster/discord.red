@@ -1,7 +1,7 @@
 Red [
 	Title:   "Discord.Red Main File"
 	Author:  "computerfreaker"
-	File: 	 %main.red
+	File: 	 %discord.red
 	Rights:  "Copyright (C) 2017 computerfreaker. All rights reserved."
 	License: {
 		Distributed under the Boost Software License, Version 1.0.
