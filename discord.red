@@ -9,8 +9,8 @@ Red [
 	}
 ]
 #include %./src/WebSockets/WebSocket.red ; introduce content from WebSocket.red
-#include %./src/CommandHandler/BasicCommand.red ; introduce content from WebSocket.red
-#include %./src/Core/Core.red ; introduce content from WebSocket.red
+#include %./src/CommandHandler/BasicCommand.red ; introduce content from BasicCommand.red
+#include %./src/Core/Core.red ; introduce content from Core.red
 WebSocket ; From WebSocket.red
 BasicCommand ; From BasicCommand.red
 Core ; Core File
