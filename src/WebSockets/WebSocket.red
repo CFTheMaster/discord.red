@@ -22,7 +22,7 @@ Red [
 #include %./API/Gateway/Reaction.red
 #include %./API/Gateway/ReadyEvent.red
 #include %./API/Gateway/RecipientEvent.red
-#include %./API/Gateway/RemoveAllREactionsEvent.red
+#include %./API/Gateway/RemoveAllReactionsEvent.red
 #include %./API/Gateway/RequestMembersParams.red
 #include %./API/Gateway/ResumeParams.red
 #include %./API/Gateway/ResumedEvent.red
