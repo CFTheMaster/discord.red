@@ -1,16 +1,15 @@
-Red [title: "Origin, tab panel, slider, progress, base" needs: 'view]
+Red [
+    Title: "Drawing test"
+    Needs: 'View
+]
+
 view [
-    origin 0x0 space 0x0
-    tab-panel 500x500 [
-        "Tab 1    " [
-            progress 100x20 data 20% react [face/data: s/data]
-            s: slider 100x20 data 20%
-        ]
-        "Tab 2    " [
-            base 400x400 draw [
-                pen red 
-                circle 75x100 30
-            ]
-        ]
+    title "Drawing test"
+    base 200x200 rate 60 now draw [
+        c: circle 40x100 25
+        [circle 150x150 30]
+    ] on-time [
+        time: now/precise
+        c/2/2: 100 + to-integer 50 * sine 200 * time/second
     ]
 ]
