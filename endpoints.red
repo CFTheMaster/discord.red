@@ -1,5 +1,5 @@
 Red [
-    Title: "Discord Red Config File"
+    Title: "Discord Red Endpoint File"
     Author: computerfreaker
     File: %Endpoints.red
 ]
