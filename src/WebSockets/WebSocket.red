@@ -28,8 +28,8 @@ Red [
 #include %./API/Gateway/ResumedEvent.red
 #include %./API/Gateway/StatusUpdateParam.red
 #include %./API/Gateway/TypingStartEvent.red
-; #include %./API/Gateway/VoiceServerUpdateEvent.red
-; #include %./API/Gateway/VoiceStateUpdateParams.red
+; #include %./API/Gateway/VoiceServerUpdateEvent.red ; (planned for the future)
+; #include %./API/Gateway/VoiceStateUpdateParams.red ; (planned for the future)
 WebSocket: func [][ 
     print "File From Websocket"
 ]
