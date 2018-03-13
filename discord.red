@@ -8,14 +8,14 @@ Red [
 		See https://github.com/CFTheMaster/discord.red/blob/master/LICENSE
 	}
 ]
-#include %./src/Client/Client.red ; introduce content from Client.red
-#include %./src/Core/Core.red ; introduce content from Core.red
-#include %./src/ErrorHandler/Errors.red ; introduce content from Errors.red
-#include %./src/Sharding/Shard.red ; introduce content from Shard.red
-#include %./src/WebSockets/WebSocket.red ; introduce content from WebSocket.red
-
-Client ; From Client.red
-Core ; From Core.red
-Errors ; From Errors.red
-Shard ; From Shard.red
-WebSocket ; From WebSocket.red
+#include %./endpoints.red ; aaaaaaaaaa
+#include %./eventhandlers.red ; aaaaaaa
+#include %./events.red ; aaaaaaaaa
+#include %./message.red ; aaaaaaa
+#include %./oauth2.red ; aaaaaaa
+#include %./ratelimit.red ; aaaaaa
+#include %./restapi.red ;aaaaaaa
+#include %./state.red ; askdplkasdkas;dlkas;dlk
+#include %./types.red ; aaaaaaa
+#include %./user.red ; getting user data
+#include %./logging.red ; logging errors
