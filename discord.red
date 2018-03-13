@@ -8,7 +8,7 @@ Red [
 		See https://github.com/CFTheMaster/discord.red/blob/master/LICENSE
 	}
 ]
-#include %./endpoints.red ; aaaaaaaaaa
+#include %./endpoints.red ; get all endpoints for users and guilds
 #include %./eventhandlers.red ; aaaaaaa
 #include %./events.red ; aaaaaaaaa
 #include %./message.red ; aaaaaaa
