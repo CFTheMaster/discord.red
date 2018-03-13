@@ -22,12 +22,12 @@ TestRatelimitReset: func(t *testing.T) [
 
 	sent: time.Now()
 	sendReq: func("/guilds/99/channels")
-	sendReq("/guilds/55/channels")
-	sendReq("/guilds/66/channels")
+	sendReq: func("/guilds/55/channels")
+	sendReq: func("/guilds/66/channels")
 
-	sendReq("/guilds/99/channels")
-	sendReq("/guilds/55/channels")
-	sendReq("/guilds/66/channels")
+	sendReq: func("/guilds/99/channels")
+	sendReq: func("/guilds/55/channels")
+	sendReq: func("/guilds/66/channels")
 
 	; We hit the same endpoint 2 times, so we should only be ratelimited 2 second
 	; And always less than 4 seconds (unless you're on a stoneage computer or using swap or something...)
