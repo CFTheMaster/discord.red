@@ -9,3 +9,4 @@ Red [
 	}
 ]
 
+#include %./lib/Errors.c ; use stuff for error logging
